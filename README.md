@@ -1,38 +1,35 @@
-# sv
+# Lighthouse  
+### Data Visualization App for FRC6036 — 2025 Reefscape Season  
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+*Demo:* https://lighthouseanalysis.vercel.app/
 
-## Creating a project
+Lighthouse is a scouting and analytics platform built to help FRC6036 make better strategic decisions throughout the 2025 *Reefscape* season. It provides clear, intuitive visualizations of match data, making it easy to compare teams, analyze trends, and prepare for competition.
 
-If you're seeing this, you've probably already done this step. Congrats!
+---
 
-```bash
-# create a new project in the current directory
-npx sv create
+## Overview
 
-# create a new project in my-app
-npx sv create my-app
-```
+FRC competitions generate a massive amount of performance data—but turning that data into actionable insights isn’t always easy.  
+**Lighthouse** solves that by offering fast, interactive, and meaningful visualizations tailored to Reefscape scouting metrics.
 
-## Developing
+Whether you’re preparing picklists, reviewing alliance partners, or understanding your own performance, Lighthouse provides the tools you need.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+---
 
-```bash
-npm run dev
+## Features
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+- **Bar Charts** for ease of analysis at large
+- **Data Average Viewing Table** for comparing the raw stats of teams in a pinch
+- **Individual Team Analysis** to view overall trends in a team's performance using a line graph
+- **Alliance Selection Simulation** to quickly map out potential alliances  
+- 
+---
 
-## Building
 
-To create a production version of your app:
+## 👤 Credits
 
-```bash
-npm run build
-```
+- **FRC6036 – Peninsula Robotics**  
+- Rex Huang
+- Open-source libraries that made this project possible
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+---
