@@ -1,5 +1,5 @@
 # Lighthouse  
-### Data Visualization App for FRC6036 — 2025 Reefscape Season  
+### Data Visualization App for FRC6036 2025 Reefscape Season  
 
 *Demo:* https://lighthouseanalysis.vercel.app/
 
@@ -26,9 +26,9 @@ Whether you’re preparing picklists, reviewing alliance partners, or understand
 ---
 
 
-## 👤 Credits
+## Credits
 
-- **FRC6036 – Peninsula Robotics**  
+- **FRC6036 Peninsula Robotics**  
 - Rex Huang
 - Open-source libraries that made this project possible
 
