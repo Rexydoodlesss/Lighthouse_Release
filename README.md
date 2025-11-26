@@ -22,7 +22,7 @@ Whether you’re preparing picklists, reviewing alliance partners, or understand
 - **Data Average Viewing Table** for comparing the raw stats of teams in a pinch
 - **Individual Team Analysis** to view overall trends in a team's performance using a line graph
 - **Alliance Selection Simulation** to quickly map out potential alliances  
-- 
+
 ---
 
 
