@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body
+{
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    font-family: 'Arial', sans-serif;
+    height:100vh;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+  }
+
+  h1 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+
+  .input-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  input {
+    width: 100%;
+    padding: 1rem 0.5rem;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: transparent;
+    color: #fff;
+    outline: none;
+  }
+
+  input::placeholder {
+    color: transparent;
+    transition: transform 0.3s ease, font-size 0.3s ease;
+  }
+
+  .input-group label {
+    position: absolute;
+    top: 50%;
+    left: 0.5rem;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: transform 0.3s ease, font-size 0.3s ease;
+  }
+
+  input:focus + label,
+  input:not(:placeholder-shown) + label {
+    transform: translateY(-150%);
+    font-size: 0.8rem;
+  }
+
+  button {
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #6c63ff;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #5753c9;
+  }
